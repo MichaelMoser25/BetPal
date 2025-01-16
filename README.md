@@ -2,6 +2,7 @@ BetPal
 BetPal is a social betting platform that allows friends to create and manage friendly wagers without real money gambling.
 
 Project Structure
+```
 BetPal/
 ├── .github/                      # GitHub workflows and templates
 │   └── workflows/
@@ -52,7 +53,7 @@ BetPal/
 │   └── guides/            # User and developer guides
 │
 └── scripts/               # Development and deployment scripts
-
+```
 Key Features by Directory:
 
 1. Authentication & Authorization (/app/(auth)/):
