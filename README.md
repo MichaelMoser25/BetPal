@@ -1,8 +1,12 @@
-# BetPal
+BetPal
+BetPal is a social betting platform that allows friends to create and manage friendly wagers without real money gambling.
+
+Project Structure
 BetPal/
 ├── .github/                      # GitHub workflows and templates
 │   └── workflows/
 │       └── ci.yml               # Continuous Integration setup
+│
 ├── apps/                        # Application packages
 │   ├── web/                     # Next.js frontend application
 │   │   ├── app/                 # App router directory
@@ -33,6 +37,7 @@ BetPal/
 │   │   ├── public/          # Static assets
 │   │   └── styles/          # Global styles
 │   └── mobile/              # React Native mobile app (future)
+│
 ├── packages/                # Shared packages
 │   ├── database/           # Database schema and migrations
 │   │   ├── migrations/
@@ -41,9 +46,11 @@ BetPal/
 │   │   ├── types/
 │   │   └── utils/
 │   └── config/             # Shared configuration
+│
 ├── docs/                   # Documentation
 │   ├── api/               # API documentation
 │   └── guides/            # User and developer guides
+│
 └── scripts/               # Development and deployment scripts
 
 Key Features by Directory:
