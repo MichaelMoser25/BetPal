@@ -84,3 +84,28 @@ Key Features by Directory:
    - Friend connections
    - Transaction history
    - Analytics data
+  
+----------------------------------------------------------------
+
+
+Monorepo Setup: Using a monorepo structure with apps/ and packages/ allows for:
+
+Code sharing between web and future mobile apps
+Consistent tooling and dependencies
+Easier deployment and CI/CD
+
+
+Scalable Architecture:
+
+Separation of concerns
+Component-driven development
+Feature-based organization
+Clear dependency boundaries
+
+
+Modern Tech Stack Considerations:
+
+Next.js App Router for optimal performance
+Type safety with TypeScript
+Database schema management with Prisma
+Component library structure for consistent UI
