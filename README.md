@@ -1,5 +1,5 @@
 BetPal
-BetPal is a social betting platform that allows friends to create and manage friendly wagers without real money gambling.
+BetPal is a social betting platform that allows friends bet against each other on sports lines eliminated ability for casinos to take your money.
 
 Project Structure
 ```
