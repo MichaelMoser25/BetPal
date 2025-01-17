@@ -1,5 +1,24 @@
 // app/page.tsx
 import { Handshake, Trophy, Shield } from 'lucide-react';
+import { ReactNode } from 'react';
+
+// Define TypeScript interface for FeatureCard props
+interface FeatureCardProps {
+  icon: ReactNode;
+  title: string;
+  description: string;
+}
+
+// Feature Card Component with type safety
+const FeatureCard = ({ icon, title, description }: FeatureCardProps) => (
+  <div className="p-8 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+    <div className="flex flex-col items-center text-center space-y-4">
+      <div className="p-3 bg-blue-50 rounded-full">{icon}</div>
+      <h3 className="text-2xl font-bold text-gray-900">{title}</h3>
+      <p className="text-gray-600 leading-relaxed">{description}</p>
+    </div>
+  </div>
+);
 
 export default function Home() {
   return (
@@ -47,14 +66,3 @@ export default function Home() {
     </main>
   );
 }
-
-// Feature Card Component
-const FeatureCard = ({ icon, title, description }) => (
-  <div className="p-8 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
-    <div className="flex flex-col items-center text-center space-y-4">
-      <div className="p-3 bg-blue-50 rounded-full">{icon}</div>
-      <h3 className="text-2xl font-bold text-gray-900">{title}</h3>
-      <p className="text-gray-600 leading-relaxed">{description}</p>
-    </div>
-  </div>
-);
